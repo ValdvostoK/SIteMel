@@ -1,0 +1,183 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/*=====  HEADER =====*/
+.header {
+  padding: 2% 0% 0% 15%;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.header-menu-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-shadow:#000000 ;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+body {
+  background: #fffaf3;
+  color: #333;
+  line-height: 1.6;
+  background-image: url('img/folhas1');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.foto1 {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.foto1:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== HEADER ===== */
+header {
+  background: linear-gradient(to bottom, #f1c182, #f8c545, rgba(255, 255, 255, 0));
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 1.2rem;
+}
+
+/* ===== SEÇOES ===== */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+section h2 {
+  color: rgb(159, 134, 25);
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+section p {
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* ===== CARDS ===== */
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== ESTATÍSTICAS ===== */
+
+.grafico {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+.grafico:hover {
+  transform: translateY(-5px);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.stat-box {
+  background: #f1faee;
+  border-left: 8px solid #e9c46a;
+  padding: 20px;
+  border-radius: 45px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+.stat-box:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== WHATSAPP ===== */
+.whatsapp {
+  text-align: center;
+  margin-top: 30px;
+}
+.whatsapp a {
+  background: #25d366;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+.whatsapp a:hover {
+  background: #1ebc57;
+  transform: scale(1.05);
+}
+.cardwhats {
+  background: white;
+  border-radius: 60px;
+  padding: 15px;
+  margin: 50px 200px 5px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+.cardwhats:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #f1c182;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  background: linear-gradient(to top, #f1c182, #f8c545, rgba(255, 255, 255, 0));
+}
