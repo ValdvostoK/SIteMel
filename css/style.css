@@ -9,7 +9,7 @@
 
 /*=====  HEADER =====*/
 .header {
-  padding: 2% 0% 0% 15%;
+  padding: 2% 0% 0% 0%;
 }
 
 .header-menu {
@@ -23,24 +23,19 @@
   font-size: 24px;
   font-weight: 600;
   color: rgb(255, 255, 255);
-  text-shadow:#000000 ;
+  text-shadow: #000000;
   padding: 10px;
   text-decoration: none;
 }
 
-
 body {
-  background: #fffaf3;
+  background: #123504;
   color: #333;
   line-height: 1.6;
-  background-image: url('img/folhas1');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 .foto1 {
-  background: white;
+  background: rgb(160, 157, 120);
   border-radius: 15px;
   padding: 30px;
   margin: 20px auto;
@@ -50,11 +45,14 @@ body {
 }
 .foto1:hover {
   transform: translateY(-5px);
+
 }
 
 /* ===== HEADER ===== */
 header {
-  background: linear-gradient(to bottom, #f1c182, #f8c545, rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    to bottom,
+    #80610b, #99740d, rgba(238, 22, 22, 0));
   color: white;
   text-align: center;
   padding: 35px 20px;
@@ -89,7 +87,7 @@ section p {
 
 /* ===== CARDS ===== */
 .card {
-  background: white;
+  background: rgb(245, 241, 183);
   border-radius: 15px;
   padding: 30px;
   margin: 20px auto;
@@ -104,7 +102,7 @@ section p {
 /* ===== ESTATÍSTICAS ===== */
 
 .grafico {
-  background: white;
+  background: rgb(245, 241, 183);
   border-radius: 15px;
   padding: 30px;
   margin: 20px auto;
@@ -125,7 +123,7 @@ section p {
 }
 
 .stat-box {
-  background: #f1faee;
+  background: rgb(160, 157, 120);
   border-left: 8px solid #e9c46a;
   padding: 20px;
   border-radius: 45px;
@@ -160,7 +158,7 @@ section p {
   transform: scale(1.05);
 }
 .cardwhats {
-  background: white;
+  background: rgb(245, 241, 183);
   border-radius: 60px;
   padding: 15px;
   margin: 50px 200px 5px;
@@ -180,6 +178,8 @@ footer {
   padding: 20px;
   margin-top: 40px;
   font-size: 0.9rem;
-  background: linear-gradient(to top, #f1c182, #f8c545, rgba(255, 255, 255, 0));
+  background: linear-gradient(to top, #80610b, #99740d, rgba(238, 22, 22, 0));
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-
