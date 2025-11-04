@@ -55,7 +55,7 @@ header {
     #80610b, #99740d, rgba(238, 22, 22, 0));
   color: white;
   text-align: center;
-  padding: 35px 5px;
+  padding: 25px 15px;
 }
 
 header h1 {
@@ -183,5 +183,6 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
 
 
